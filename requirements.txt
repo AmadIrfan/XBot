@@ -1,0 +1,5 @@
+pandas
+selenium
+numpy
+bs4
+rich
