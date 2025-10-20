@@ -3,6 +3,14 @@
 **XBot** is an automated scraping bot built with **Python**, **Selenium**, and **pandas** that extracts tweets and user data from **X (Twitter)** using browser automation.  
 It supports authentication via saved cookies (exported using a Chrome extension) and saves results to structured CSV files.
 
+## 🚀 Features
+
+✅ Extracts **usernames**, **tweet text**, and **like counts**  
+✅ Uses **Selenium** for automated browser control  
+✅ Supports **cookie-based authentication** (no manual login each time)  
+✅ Saves data as **CSV** using pandas  
+✅ Organized **OOP structure** (Auth, Driver, Scraper, Save)
+
 ## 📁 Project Structure
 
 ### App
@@ -45,7 +53,7 @@ It supports authentication via saved cookies (exported using a Chrome extension)
 ### 1. Clone the repository
 
 ```shell
-git clone https://github.com/yourusername/XBot.git
+git clone https://github.com/amadirfan/XBot.git
 cd Bot
 ```
 
