@@ -39,9 +39,9 @@ It supports authentication via saved cookies (exported using a Chrome extension)
 
 ### Pictures
 
-![Processing](\images\img_1.png)
+![Processing](/images/img_1.png)
 
-![Finish](\images\img_2.png)
+![Finish](/images/img_2.png)
 
 ### 🧩 Tech Stack
 
