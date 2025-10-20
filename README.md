@@ -39,8 +39,9 @@ It supports authentication via saved cookies (exported using a Chrome extension)
 
 ### Pictures
 
-![Processing](images\img_1.png)
-![Finish](images\img_2.png)
+![Processing](\images\img_1.png)
+
+![Finish](\images\img_2.png)
 
 ### 🧩 Tech Stack
 
@@ -54,7 +55,7 @@ It supports authentication via saved cookies (exported using a Chrome extension)
 
 ```shell
 git clone https://github.com/amadirfan/XBot.git
-cd Bot
+cd XBot
 ```
 
 ### 2. Create and Activate Python Virtual Environment
@@ -76,7 +77,7 @@ pip install -r requirements.txt
 
 in root dir paste file named x.com.cookies.json
 
-    x.com.cookies.json
+    touch x.com.cookies.json
 
 ### 5. Run Code
 
