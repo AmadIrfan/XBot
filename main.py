@@ -1,13 +1,9 @@
 import pandas  as pd
-from save import CSVSave
-from pathlib import Path
-from Cookies import Cookies
+
 from Auth import CookiesAuth
+from Cookies import Cookies
 from Scrapper import TwitterScraper
-from settings import COOKIE_PATH, HEADLESS
-
-
-
+from save import CSVSave
 
 class Bot:
     def __init__(self):
@@ -16,9 +12,9 @@ class Bot:
     def exec(self):
         try:
             query = input("Enter search query for X (Twitter): ") or "AI trends"    
-            cookies = Cookies(cookies_path=Path(COOKIE_PATH))
+            cookies = Cookies()
             cookie = cookies.load_cookies()
-            ts = TwitterScraper(headless=HEADLESS)
+            ts = TwitterScraper()
             auth = CookiesAuth(cookies=cookie)
             tweets=ts.exec(auth=auth,query=query)
             svc=CSVSave()
